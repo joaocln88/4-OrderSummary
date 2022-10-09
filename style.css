@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Red Hat Display';
+  background: #e0e8ff url(./images/pattern-background-desktop.svg) no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+main {
+  background: #fff;
+  box-shadow: 0px 40px 40px -20px rgba(13, 48, 189, 0.151826);
+  border-radius: 20px;
+  max-width: 450px;
+  margin: 20px;
+}
+
+header img {
+  display: block;
+  border-radius: 20px 20px 0 0;
+  max-width: 100%;
+  height: auto;
+}
+
+section {
+  padding: 3rem;
+}
+
+h1 {
+  font-family: 'Red Hat Display', sans-serif;
+  font-weight: 900;
+  font-size: 28px;
+  line-height: 37px;
+  text-align: center;
+  color: #1f2e55;
+}
+
+.text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #717fa6;
+  max-width: 320px;
+  margin: auto;
+  margin-top: 16px;
+}
+
+.plan {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+  background: #f7f9ff;
+  padding: 25px;
+  margin-top: 20px;
+  border-radius: 11px;
+  align-items: center;
+}
+
+.plan img {
+  display: block;
+  object-fit: contain;
+}
+
+.plan p:first-of-type {
+  font-weight: 900;
+  color: #1f2e55;
+}
+
+.plan p:last-of-type {
+  font-weight: 500;
+  color: #717fa6;
+  margin-top: 6px;
+}
+
+.plan a {
+  margin-left: auto;
+  color: #382ae1;
+  font-weight: 700;
+  font-size: 14px;
+  text-decoration: none;
+  border-bottom: 2px solid #382ae1;
+  line-height: 18px;
+}
+
+.plan a:hover {
+  color: #766cf1;
+  border-bottom: none;
+}
+
+.button {
+  display: block;
+  text-align: center;
+  font-weight: 700;
+  font-size: 15px;
+  color: #fff;
+  text-decoration: none;
+  padding: 15px;
+  margin-top: 32px;
+  background-color: #382ae1;
+  border-radius: 11px;
+  box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
+}
+
+.button:hover {
+  background-color: #766cf1;
+}
+
+.cancel {
+  display: block;
+  margin-top: 32px;
+  text-align: center;
+  color: #717fa6;
+  font-weight: 700;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+.cancel:hover {
+  color: #1f2e55;
+}
+
+@media screen and (max-width: 500px) {
+  section {
+    padding: 2rem;
+  }
+
+  h1 {
+    font-size: 22px;
+  }
+
+  .text {
+    font-size: 15px;
+  }
+
+  .plan {
+    padding: 16px;
+    font-size: 14px;
+  }
+
+  .plan a {
+    font-size: 13px;
+  }
+}
