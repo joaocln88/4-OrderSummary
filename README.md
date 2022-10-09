@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://joaocln88.github.io/FrontendMentor-NFTPreviewCard/](https://joaocln88.github.io/FrontendMentor-OrderSummary/)
+- Solution URL: [https://joaocln88.github.io/FrontendMentor-OrderSummary](https://joaocln88.github.io/FrontendMentor-OrderSummary/)
 
 ## My process
 
